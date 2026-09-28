@@ -1,0 +1,18 @@
+{
+  "name": "llm-cost-optimizer",
+  "version": "1.0.0",
+  "description": "Quantify LLM API cost savings from prompt caching, model routing, and context trimming.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "llm-cost-optimizer": "src/index.ts"
+  },
+  "scripts": {
+    "analyze": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

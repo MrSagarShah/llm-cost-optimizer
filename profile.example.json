@@ -1,0 +1,10 @@
+{
+  "model": "claude-opus-4-8",
+  "requestsPerMonth": 500000,
+  "avgInputTokens": 4000,
+  "avgOutputTokens": 400,
+  "repeatedContextTokens": 3000,
+  "fractionOfRequestsThatAreEasy": 0.6,
+  "trimmablePct": 0.3,
+  "cheapModel": "claude-sonnet-5"
+}
